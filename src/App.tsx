@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useFormik } from "formik";
-import './styles/modal.css'
+
 function App() {
   const generateId = () => Math.random().toString(36)
   const [products, setProducts]=useState<any[]>([]);
