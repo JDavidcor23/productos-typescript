@@ -18,7 +18,7 @@ const TableProducts = (arg:ArryProducts) => {
                     <th scope="col">Nombre de usuario</th>
                     <th scope="col">Producto</th>
                     <th scope="col">Precio</th>
-                    <th scope="col">Obciones</th>
+                    <th scope="col">Opciones</th>
                     </tr>
                 </thead>
                 <tbody>
