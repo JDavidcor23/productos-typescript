@@ -17,11 +17,11 @@ facturas realizar interface donde se puedan realizar los siguientes procesos CRU
 4. Crear un nuevo registro
 5. Editar registro existente
 ## Funcionamiento:
-Se lo paso al componente table que recibe el argumento de tipo User Array y lo itera para mostrarlo
-Creo un formulario con ayuda de formik para agregar los productos
 ## index.js:
-Llamo a la endpoint con el useEffect y se lo agrego a un **products=useState** de tipo any
-funciones:
+Creo un formulario con ayuda de formik para agregar los productos
+Llamo a la endpoint con el useEffect y se lo agrego a un useState de tipo any
+## funciones:
 generateId: este lo que hace es generarme un id unico para poder agregar un nuevo objeto con un respectivo id
-deleteProduct: me filtra todos los objetos que no sean tengan el mismo id que se le paso por parametro y se lo agrega al **products**
+deleteProduct: me filtra todos los objetos que no sean tengan el mismo id que se le paso por parametro y se lo agrega al useState
+
 
